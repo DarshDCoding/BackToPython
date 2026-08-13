@@ -1,6 +1,6 @@
 value = 0
 temp_total = 0
-operatores = ["A", "S", "M", "D", "P", "H"]
+operatores = ("A", "S", "M", "D", "P", "H") #using tuple because it is faster to perform opertarions on immutable data types.
 
 
 # user will first select operation from Add, subtract, multiply, devide, and power. after results. user will get prompt to clear, end, or continue by selecting the operator.
