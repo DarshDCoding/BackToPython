@@ -77,12 +77,28 @@
 # print(countVowelsButBitAdvance(strin)["Reps"])
 
 
-def isPrime (num):
-    return True if num/(num/4) else False
+# # WAF to print if a number is prime or not.
 
-for i in range(7):
-    print(isPrime(int(input("Enter Your Number: "))))
+# def checkPrime (num:int):
+#     if num<2:
+#         return False
+
+#     for i in range(2, int(num**0.5)+1):
+#         return False if num%2==0 else True
+
+#     return True
+
+
+# for i in range(7):
+#     print(checkPrime(int(input("Enter Your Number: "))))
 
 
 
+# # WAF to return the average marks if the list of marks is passed as parameter.
 
+# def averageMarks (marks:list):
+#     return sum(marks)/len(marks)
+
+# marksList = [4, 4, 4, 5, 5, 5]
+
+# print(averageMarks(marksList))
