@@ -3,7 +3,7 @@
 ## Easy Projects
 *Focus: Classes, `self`, `__init__`, Instance Methods*
 
-- [ ] **1. Digital Library Book Tracker**
+- [x] **1. Digital Library Book Tracker**
   - **Key Concepts:** Basic Class definition, Constructor (`__init__`), Attributes, Instance Methods.
   - **Goal:** Create a `Book` class to track availability. Include methods like `borrow_book()` and `return_book()`, which modify internal state attributes (e.g., `is_available`).
 
