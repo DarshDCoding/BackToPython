@@ -7,7 +7,7 @@
   - **Key Concepts:** Basic Class definition, Constructor (`__init__`), Attributes, Instance Methods.
   - **Goal:** Create a `Book` class to track availability. Include methods like `borrow_book()` and `return_book()`, which modify internal state attributes (e.g., `is_available`).
 
-- [ ] **2. Bank Account Simulator**
+- [x] **2. Bank Account Simulator**
   - **Key Concepts:** Encapsulation basics, State Modification, Methods.
   - **Goal:** Build a `BankAccount` class with `deposit()`, `withdraw()`, and `get_balance()` methods. Ensure withdrawals fail gracefully if the requested amount exceeds the current balance.
 
