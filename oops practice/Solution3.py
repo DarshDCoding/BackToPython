@@ -3,8 +3,9 @@
 # Goal:Create a `Student` class that stores grades in a list. Write methods to `add_grade()`, calculate the average, and determine a pass/fail status based on threshold logic.
 
 class StudentGradebook:
-    _grade_type =["O", "A+", "A", "B+", "B", "C+", "C", "D+", "D", 'F']
-    _grade_values ={ "O":10, "A+":9, "A":8, "B+":7, "B":6, "C+":5, "C":4, "D+":3, "D":2, "F":"Fail"}
+    _grade_type = ["O", "A+", "A", "B+", "B", "C+", "C", "D+", "D", 'F']
+    _grade_values = { "O":10, "A+":9, "A":8, "B+":7, "B":6, "C+":5, "C":4, "D+":3, "D":2, "F":"Fail"}
+    _point_values = {10:"O", 9:"A+", 8:"A", 7:"B+", 6:"B", 5:"C+", 4:"C", 3:"D+", 2:"D"}
 
     def __init__(self, name:str):
         self.name = name
@@ -31,11 +32,28 @@ class StudentGradebook:
     def get_grades(self):
         return self.__grades
 
+    def result(self) -> str:
+
+        failed_subjects = []
+        for subject, grade in self.__grades.items():
+            if grade == "F":
+                failed_subjects.append(subject)
+        if failed_subjects:
+            return f'Failed. Subjects:{failed_subjects}'
+
+        grade_sum = 0
+        for subject, grade in self.__grades.items():
+            grade_sum += StudentGradebook._grade_values[grade]
+        try:
+            result = round(grade_sum/len(self.__grades))
+        except ZeroDivisionError:
+            return "Kindly Add Grades to a Student Gradebook."
+
+        return f'Grade:"{StudentGradebook._point_values[result]}". Result: Passed!'
+
+
+
 # Example:
 darsh_gradebook = StudentGradebook("Darsh")
-darsh_gradebook.add_grade({"Hindi":"A", "English":"B", "Maths":"A+", "Science":"O"})
-print(darsh_gradebook.get_grades())
-darsh_gradebook.add_grade({"hindi":"o"})
-print(darsh_gradebook.get_grades())
-darsh_gradebook.add_grade({"English":"A"})
-print(darsh_gradebook.get_grades())
+darsh_gradebook.add_grade({"Hindi":"D", "English":"D", "Maths":"D", "Science":"D"})
+print(darsh_gradebook.result())

@@ -11,7 +11,7 @@
   - **Key Concepts:** Encapsulation basics, State Modification, Methods.
   - **Goal:** Build a `BankAccount` class with `deposit()`, `withdraw()`, and `get_balance()` methods. Ensure withdrawals fail gracefully if the requested amount exceeds the current balance.
 
-- [ ] **3. Digital Student Gradebook**
+- [x] **3. Digital Student Gradebook**
   - **Key Concepts:** Attributes holding collections (lists/dictionaries), Instance Methods, Logic calculations inside classes.
   - **Goal:** Create a `Student` class that stores grades in a list. Write methods to `add_grade()`, calculate the average, and determine a pass/fail status based on threshold logic.
 
