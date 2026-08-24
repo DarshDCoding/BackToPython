@@ -33,9 +33,10 @@
   - **Goal:** Build a base `Vehicle` class tracking a global count via a class variable. Subclass into `Car`, `ElectricCar`, and `Truck`. Implement a common `get_fuel_efficiency()` method in each class that computes range differently (Polymorphism).
   - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution5.py)
 
-- [ ] **6. Employee Payroll Manager**
+- [x] **6. Employee Payroll Manager**
   - **Key Concepts:** Polymorphism, `@staticmethod`, Method Overriding.
   - **Goal:** Implement `FullTimeEmployee` and `ContractEmployee` inheriting from a base `Employee` class. Override `calculate_salary()` for both. Add `@staticmethod` helpers to validate tax IDs or format payroll output.
+  - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution6.py)
 
 ---
 
