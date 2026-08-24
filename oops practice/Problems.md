@@ -28,7 +28,7 @@
   - **Goal:** Create a base class `Product` with encapsulated prices. Extend it into specific sub-classes that add unique attributes (e.g., warranty length or clothing size). Build a `ShoppingCart` class that accepts `Product` instances and calculates total tax.
   - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution4.py)
 
-- [ ] **5. Fleet Vehicle Management System**
+- [x] **5. Fleet Vehicle Management System**
   - **Key Concepts:** Polymorphism, Class Variables (`total_vehicles`), Inheritance.
   - **Goal:** Build a base `Vehicle` class tracking a global count via a class variable. Subclass into `Car`, `ElectricCar`, and `Truck`. Implement a common `get_fuel_efficiency()` method in each class that computes range differently (Polymorphism).
   - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution5.py)
