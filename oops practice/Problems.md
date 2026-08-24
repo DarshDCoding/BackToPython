@@ -31,6 +31,7 @@
 - [ ] **5. Fleet Vehicle Management System**
   - **Key Concepts:** Polymorphism, Class Variables (`total_vehicles`), Inheritance.
   - **Goal:** Build a base `Vehicle` class tracking a global count via a class variable. Subclass into `Car`, `ElectricCar`, and `Truck`. Implement a common `get_fuel_efficiency()` method in each class that computes range differently (Polymorphism).
+  - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution5.py)
 
 - [ ] **6. Employee Payroll Manager**
   - **Key Concepts:** Polymorphism, `@staticmethod`, Method Overriding.
