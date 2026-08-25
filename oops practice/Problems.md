@@ -43,9 +43,10 @@
 ## Hard Projects
 *Focus: Multiple Inheritance, Decorators, Property Validation, Composition*
 
-- [ ] **7. Smart Home Automation Engine**
+- [x] **7. Smart Home Automation Engine**
   - **Key Concepts:** Multiple Inheritance, Mixins, Property Decorators.
   - **Goal:** Create standalone mixin classes like `WiFiConnectedMixin` and `BatteryPoweredMixin`. Combine these with base device classes (`Light`, `Thermostat`) to create hybrid devices (e.g., `SmartThermostat`). Use `@property` getters and setters with validation logic to restrict device settings (e.g., temperature limits).
+  - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution7.py)
 
 - [ ] **8. Custom Plugin & Logger Framework**
   - **Key Concepts:** Decorators applied to methods, Class methods as constructors, Encapsulation.
