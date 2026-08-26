@@ -48,9 +48,10 @@
   - **Goal:** Create standalone mixin classes like `WiFiConnectedMixin` and `BatteryPoweredMixin`. Combine these with base device classes (`Light`, `Thermostat`) to create hybrid devices (e.g., `SmartThermostat`). Use `@property` getters and setters with validation logic to restrict device settings (e.g., temperature limits).
   - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution7.py)
 
-- [ ] **8. Custom Plugin & Logger Framework**
+- [x] **8. Custom Plugin & Logger Framework**
   - **Key Concepts:** Decorators applied to methods, Class methods as constructors, Encapsulation.
   - **Goal:** Create an audit logging system that records function execution. Implement `@classmethod` factory constructors (e.g., `Logger.from_config_file()`). Create custom method decorators inside your class structure to auto-log performance or control permission access.
+  - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution8.py)
 
 - [ ] **9. Role-Based Access Control (RBAC) & Authentication System**
   - **Key Concepts:** Composition, Encapsulation, Dynamic Properties, Inheritance.
