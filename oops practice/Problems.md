@@ -53,6 +53,7 @@
   - **Goal:** Create an audit logging system that records function execution. Implement `@classmethod` factory constructors (e.g., `Logger.from_config_file()`). Create custom method decorators inside your class structure to auto-log performance or control permission access.
   - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution8.py)
 
-- [ ] **9. Role-Based Access Control (RBAC) & Authentication System**
+- [x] **9. Role-Based Access Control (RBAC) & Authentication System**
   - **Key Concepts:** Composition, Encapsulation, Dynamic Properties, Inheritance.
   - **Goal:** Design a system with `User`, `Role`, and `Permission` classes. Use composition (a `User` *has a* `Role`, which *has* `Permissions`). Protect password attributes using private variables with secure hashing routines via property decorators, ensuring lower-tier roles cannot escalate permissions.
+  - **Solution:** [Click here](https://github.com/DarshDCoding/BackToPython/blob/main/oops%20practice/Solution9.py)
